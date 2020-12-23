@@ -1,2 +1,2 @@
-# css-selectors-templates
+# css-selectors
 Шаблоны для занятия по CSS-селекторам
