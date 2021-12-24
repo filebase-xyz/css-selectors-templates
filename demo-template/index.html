@@ -7,35 +7,55 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+
+	<!-- Neighbors Tags -->
       
 	<div>1. DIV</div>
+
 	<div class="cat">2. DIV with class CAT;</div>
+
 	<div id="tiger" class="dog">3. DIV with id TIGER and class DOG;</div>
-	<div class="cat dog bird">4. DIV with class CAT, DOG, TIGER;</div>
+
+	<div class="cat dog bird">4. DIV with class CAT, DOG, BIRD;</div>
 	
+
 	<p class="dog bird">5. P with class DOG, BIRD;</p>
+
 	<p>6. P</p>
+
 	<p class="cat dog" id="lion">7. P with class CAT, DOG and id LION;</p>
+
 	<p class="bird horse">8. P with class BIRD, HORSE;</p>
 
 	<article class="horse">9. ARTICLE with class HORSE;</article>
+
 	<p class="bird dog">10. P with class BIRD, DOG.</p>
 	
-	<hr>
+
+	<hr> <!-- Nesting Tags -->
 	
-	<div class="dog">
+
+	<div class="dog"> <!-- First Level -->
 		1. DIV with class DOG
-		<div class="bird">
+
+		<div class="bird"> <!-- Second Level -->
 			2. DIV with class BIRD
-			<p class="cat">3. P with class CAT</p>
-			<p>4. P</p>
+
+			<p class="cat">3. P with class CAT</p> <!-- Third Level -->
+
+			<p>4. P</p> <!-- Third Level -->
+
 		</div>
+
 	</div>
 	
-	<article class="dog">
+	<article class="dog"> <!-- First Level -->
 		5. ARTICLE with class DOG
-		<p class="cat">6. P with class CAT</p>
-		<p class="dog">7. P</p>
+
+		<p class="cat">6. P with class CAT</p> <!-- Second Level -->
+
+		<p class="dog">7. P</p> <!-- Second Level -->
+
 	</article>
    
   </body>
